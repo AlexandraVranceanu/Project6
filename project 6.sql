@@ -1,8 +1,8 @@
- -- Acest script SQL analizeaz? performan?a campaniilor publicitare din Facebook Ads ?i Google Ads, unind datele din ambele surse ?i calcul‚nd metrici relevante pentru evaluarea eficien?ei marketingului digital.
+ -- Acest script SQL analizeaza performanta campaniilor publicitare din Facebook Ads si Google Ads, unind datele din ambele surse si calcul√¢nd metrici relevante pentru evaluarea eficientei marketingului digital.
 
 -- **Unificarea datelor din Facebook Ads ?i Google Ads**
 WITH Table_join_unionall AS (
-    -- Se selecteaz? datele din tabelul Facebook Ads, al?tur‚nd informa?iile despre campanii ?i adset-uri
+    -- Se selecteaz? datele din tabelul Facebook Ads, al?tur√¢nd informa?iile despre campanii ?i adset-uri
     SELECT
         fabd.ad_date,
         fc.campaign_name,
